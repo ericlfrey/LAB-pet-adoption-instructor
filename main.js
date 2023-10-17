@@ -13,7 +13,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
     type: "dino",
-    imageUrl: "https://loremflickr.com/320/240/t-rex",
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
     type: "cat",
-    imageUrl: "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"
+    imageUrl: "https://as1.ftcdn.net/v2/jpg/01/96/39/24/1000_F_196392453_iUZNmPtxsXPhojoKuehMcz4uF9GfbwgA.jpg"
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const pets = [
     color: "Grey",
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
     type: "dino",
-    imageUrl: "https://loremflickr.com/320/240/dinosaur"
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a"
   },
   {
     id: 9,
@@ -85,7 +85,7 @@ const pets = [
     color: "Orange",
     specialSkill: "Can be around food without staring creepily at it.",
     type: "dino",
-    imageUrl: "https://loremflickr.com/320/240/dino"
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a"
   },
   {
     id: 12,
@@ -101,7 +101,7 @@ const pets = [
     color: "Red",
     specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
     type: "dog",
-    imageUrl: "https://loremflickr.com/320/240/dog"
+    imageUrl: "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg"
   },
   {
     id: 14,
@@ -125,7 +125,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Drives at a safe rate of speed in snow or rain.",
     type: "dino",
-    imageUrl: "https://loremflickr.com/320/240/stegosaurus"
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a"
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const pets = [
     color: "Yellow",
     specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
     type: "cat",
-    imageUrl: "https://loremflickr.com/320/240/kitty"
+    imageUrl: "https://as1.ftcdn.net/v2/jpg/01/96/39/24/1000_F_196392453_iUZNmPtxsXPhojoKuehMcz4uF9GfbwgA.jpg"
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Proficient in air guitar",
     type: "dino",
-    imageUrl: "https://loremflickr.com/320/240/brontosaurus"
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a"
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const pets = [
     color: "Blue",
     specialSkill: "Listens attentively to boring stories.",
     type: "dog",
-    imageUrl: "https://loremflickr.com/320/240/puppy"
+    imageUrl: "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg"
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const pets = [
     color: "Black",
     specialSkill: "Uses litter box at appropriate hours.",
     type: "cat",
-    imageUrl: "https://loremflickr.com/320/240/cat"
+    imageUrl: "https://as1.ftcdn.net/v2/jpg/01/96/39/24/1000_F_196392453_iUZNmPtxsXPhojoKuehMcz4uF9GfbwgA.jpg"
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ const pets = [
     color: "Red",
     specialSkill: "Owns a Nintendo Power Glove.",
     type: "dino",
-    imageUrl: "https://loremflickr.com/320/240/jurassic"
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a"
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ const pets = [
     color: "Orange",
     specialSkill: "Is comfortable with jokes about his receding hairline.",
     type: "cat",
-    imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
+    imageUrl: "https://as1.ftcdn.net/v2/jpg/01/96/39/24/1000_F_196392453_iUZNmPtxsXPhojoKuehMcz4uF9GfbwgA.jpg"
   },
   {
     id: 23,
@@ -189,7 +189,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
     type: "dog",
-    imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
+    imageUrl: "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg"
   },
   {
     id: 25,
@@ -197,7 +197,7 @@ const pets = [
     color: "Red",
     specialSkill: "Knows the words to 4 rap songs.",
     type: "cat",
-    imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg"
+    imageUrl: "https://as1.ftcdn.net/v2/jpg/01/96/39/24/1000_F_196392453_iUZNmPtxsXPhojoKuehMcz4uF9GfbwgA.jpg"
   },
   {
     id: 26,
@@ -237,7 +237,7 @@ const pets = [
     color: "Red",
     specialSkill: "Doesn’t get weirded out by the word “moist.”",
     type: "dino",
-    imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
+    imageUrl: "https://media.istockphoto.com/photos/stegosaurus-forest-scene-3d-illustration-picture-id1168444910?s=170667a"
   }
 ];
 

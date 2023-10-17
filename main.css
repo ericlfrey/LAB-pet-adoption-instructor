@@ -15,9 +15,17 @@ body {
   background-color: whitesmoke;
 }
 
+.card p {
+  font-size: .7rem;
+}
+
 .card-header {
   background-color: lightgray;
   color: #636363;
+}
+
+.card-footer {
+  font-size: .8rem;
 }
 
 .cat-color {
