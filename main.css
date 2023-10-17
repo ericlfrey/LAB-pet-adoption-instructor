@@ -1,4 +1,36 @@
 body {
-  background-color: blue;
-  color: cornsilk;
+  background-color: cornsilk;
+  color: cornflowerblue;
+}
+
+.pet-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  margin: 1rem;
+  background-color: whitesmoke;
+}
+
+.card-header {
+  background-color: lightgray;
+  color: #636363;
+}
+
+.cat-color {
+  background-color: lightblue;
+  color: blue;
+}
+
+.dog-color {
+  background-color: darkseagreen;
+  color: green;
+}
+
+.dino-color {
+  background-color: lightgoldenrodyellow;
+  color: goldenrod;
 }
