@@ -1,0 +1,44 @@
+body {
+  background-color: cornsilk;
+  color: cornflowerblue;
+}
+
+.pet-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  margin: 1rem;
+  background-color: whitesmoke;
+}
+
+.card p {
+  font-size: .7rem;
+}
+
+.card-header {
+  background-color: lightgray;
+  color: #636363;
+}
+
+.card-footer {
+  font-size: .8rem;
+}
+
+.cat-color {
+  background-color: lightblue;
+  color: blue;
+}
+
+.dog-color {
+  background-color: darkseagreen;
+  color: green;
+}
+
+.dino-color {
+  background-color: lightgoldenrodyellow;
+  color: goldenrod;
+}

@@ -1,242 +1,155 @@
-const pets = [
-    {
-      id: 1,
-      name: "Dusty",
-      color: "Green",
-      specialSkill: "Gives sincere apologies.",
-      type: "cat",
-      imageUrl: "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg",
-    },
-    {
-        id: 2,
-      name: "Trouble",
-      color: "Brown",
-      specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
-      type: "dino",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
-    },
-    {
-      id: 3,
-      name: "Whiskers",
-      color: "Yellow",
-      specialSkill: "Can prove he is a real man by drinking whiskey.",
-      type: "dino",
-      imageUrl: "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg"
-    },
-    {
-      id: 4,
-      name: "Coco",
-      color: "Black",
-      specialSkill: "Burps minimally.",
-      type: "dog",
-      imageUrl: "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg"
-    },
-    {
-      id: 5,
-      name: "Spooky",
-      color: "Brown",
-      specialSkill: "Comfortable in the outdoors for up to eight hours.",
-      type: "cat",
-      imageUrl: "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"
-    },
-    {
-      id: 6,
-      name: "Tiger",
-      color: "Black",
-      specialSkill: "Can read (but cannot understand) Hebrew.",
-      type: "dog",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Basset_Hound_600.jpg"
-    },
-    {
-      id: 7,
-      name: "Oreo",
-      color: "Yellow",
-      specialSkill: "Able to stop chewing ice or whistling on request.",
-      type: "cat",
-      imageUrl: "https://i.pinimg.com/originals/9d/da/3e/9dda3e5fd2b9886fc3d13ee47f52e8a0.jpg"
-    },
-    {
-      id: 8,
-      name: "Ginger",
-      color: "Grey",
-      specialSkill: "Comfortable in the outdoors for up to eight hours.",
-      type: "dino",
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg"
-    },
-    {
-      id: 9,
-      name: "Sassy",
-      color: "Brown",
-      specialSkill: "Adept at talking self and others out of fights.",
-      type: "cat",
-      imageUrl: "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg"
-    },
-    {
-      id: 10,
-      name: "Sammy",
-      color: "Blue",
-      specialSkill: "Listens attentively to boring stories.",
-      type: "cat",
-      imageUrl: "https://i.pinimg.com/originals/04/54/92/0454926d39eeb420f4f01948e94e9e41.jpg"
-    },
-    {
-      id: 11,
-      name: "Coco",
-      color: "Orange",
-      specialSkill: "Can be around food without staring creepily at it.",
-      type: "dino",
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600"
-    },
-    {
-      id: 12,
-      name: "Buster",
-      color: "Green",
-      specialSkill: "Does not use excessive acronyms.",
-      type: "dog",
-      imageUrl: "https://i.pinimg.com/originals/1f/30/8c/1f308c9c108a384b91b39430cc7312e9.jpg"
-    },
-    {
-      id: 13,
-      name: "Chester",
-      color: "Red",
-      specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
-      type: "dog",
-      imageUrl: "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg"
-    },
-    {
-      id: 14,
-      name: "Samantha",
-      color: "Brown",
-      specialSkill: "Always up for dessert.",
-      type: "cat",
-      imageUrl: "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg"
-    },
-    {
-      id: 15,
-      name: "Coco",
-      color: "Red",
-      specialSkill: "Burps minimally.",
-      type: "cat",
-      imageUrl: "http://cathumor.net/wp-content/uploads/2013/12/cat-humor-funny-karate-cat-2.jpg"
-    },
-    {
-      id: 16,
-      name: "Smokey",
-      color: "Brown",
-      specialSkill: "Drives at a safe rate of speed in snow or rain.",
-      type: "dino",
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg"
-    },
-    {
-     id: 17,
-      name: "Muffin",
-      color: "Yellow",
-      specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
-      type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg"
-    },
-    {
-      id: 18,
-      name: "Salem",
-      color: "Brown",
-      specialSkill: "Proficient in air guitar",
-      type: "dino",
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg"
-    },
-    {
-      id: 19,
-      name: "Callie",
-      color: "Blue",
-      specialSkill: "Listens attentively to boring stories.",
-      type: "dog",
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
-    },
-    {
-      id: 20,
-      name: "Spooky",
-      color: "Black",
-      specialSkill: "Uses litter box at appropriate hours.",
-      type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
-    },
-    {
-      id: 21,
-      name: "Miss kitty",
-      color: "Red",
-      specialSkill: "Owns a Nintendo Power Glove.",
-      type: "dino",
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
-    },
-    {
-        id: 22,
-      name: "Snuggles",
-      color: "Orange",
-      specialSkill: "Is comfortable with jokes about his receding hairline.",
-      type: "cat",
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
-    },
-    {
-        id: 23,
-      name: "Buddy",
-      color: "Red",
-      specialSkill: "Enjoys fine wine.",
-      type: "dog",
-      imageUrl: "http://1.bp.blogspot.com/-VjM0CmtN-vU/T7YX-LXa09I/AAAAAAAADA0/Vt1oGWEG0lw/s1600/sheepdog+border+collie+shakes+off+water+funny+picture+photo+pulling+faces+raspberry+tongue.jpg"
-    },
-    {
-        id: 24,
-      name: "George",
-      color: "Brown",
-      specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
-      type: "dog",
-      imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
-    },
-    {
-      id: 25,
-      name: "Salem",
-      color: "Red",
-      specialSkill: "Knows the words to 4 rap songs.",
-      type: "cat",
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg"
-    },
-    {
-        id: 26,
-      name: "Bubba",
-      color: "Yellow",
-      specialSkill: "Cleans himself.",
-      type: "dog",
-      imageUrl: "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg"
-    },
-    {
-        id: 27,
-      name: "Chloe",
-      color: "Green",
-      specialSkill: "Admits he is wrong",
-      type: "dino",
-      imageUrl: "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg"
-    },
-    {
-        id: 28,
-      name: "Nala",
-      color: "Purple",
-      specialSkill: "Dances when he has to.",
-      type: "cat",
-      imageUrl: "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg"
-    },
-    {
-        id: 29,
-      name: "Oscar",
-      color: "Green",
-      specialSkill: "Gives hugs with appropriate pressure and for the right length of time.",
-      type: "cat",
-      imageUrl: "http://img.izismile.com/img/img2/20090219/cats_02.jpg"
-    },
-    {
-        id: 30,
-      name: "Lucy",
-      color: "Red",
-      specialSkill: "Doesn’t get weirded out by the word “moist.”",
-      type: "dino",
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
+import pets from './data.js'
+
+const petsCopy = [...pets];
+
+const htmlOnDOM = (divId, str) => {
+  document.getElementById(divId).innerHTML = str;
+};
+
+document.querySelector('#app').innerHTML = `
+<div id="pageContainer" class="container">
+  <h1>Pet Adoption</h1>
+  <div id="filterBtnsContainer" class="filter-btns-container d-flex justify-content-around"></div>
+  <div id="addPetForm" class=""></div>
+  <div id="petContainer" class="pet-container"></div>
+</div>
+`;
+
+const filterDomStr = `
+  <div>
+    <p>Filter Pets by Type:</p>
+    <div id="filterButtons" class="filter-buttons">
+      <button id="filterBtnCats" type="button" class="btn btn-primary">Cats</button>
+      <button id="filterBtnDogs" type="button" class="btn btn-success">Dogs</button>
+      <button id="filterBtnDinos" type="button" class="btn btn-warning">Dinos</button>
+      <button id="allPets" type="button" class="btn btn-secondary">All</button>
+    </div>
+  </div>
+  <div>
+    <p>Add a new Pet</p>
+    <div id="" class="">
+      <button id="showAddPetForm" type="button" class="btn btn-primary">Add a Pet</button>
+    </div>
+  </div>
+`;
+
+const formStr = `
+<button type="button" id="backBtn" class="btn">← Go Back</button>
+<form id='createPetForm'>
+  <div class="mb-3">
+    <label for="petName" class="form-label">Name:</label>
+    <input type="text" class="form-control" id="petName" required>
+  </div>
+  <div class="mb-3">
+    <label for="petColor" class="form-label">Color:</label>
+    <input type="text" class="form-control" id="petColor" required>
+  </div>
+  <div class="mb-3">
+    <label for="petSkill" class="form-label">Special Skill:</label>
+    <input type="text" class="form-control" id="petSkill" required>
+  </div>
+  <div class="mb-3">
+    <label for="petImage" class="form-label">Image URL:</label>
+    <input type="text" class="form-control" id="petImage" required>
+  </div>
+  <select id='petType' class="form-select">
+    <option selected>Open this select menu</option>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="dino">Dino</option>
+  </select>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+`;
+
+const petsOnDom = (arr) => {
+  let domString = '';
+  arr.forEach((pet) => {
+    domString += `
+    <div class="card" style="width: 15rem;">
+      <div class="card-header">${pet.name}</div>
+      <img src="${pet.imageUrl}"  alt="image of a ${pet.type}">
+      <div class="card-body">
+        <p class="card-title">Color: ${pet.color}</p>
+        <p class="card-text">${pet.specialSkill}</p>
+      </div>
+      <div>
+        <button id="delete--${pet.id}" type="button" class="btn btn-danger">Delete</button>
+      </div>
+      <div class="card-footer ${pet.type}-color">${pet.type.charAt(0).toUpperCase() + pet.type.slice(1)}</div>
+    </div>
+    `;
+  });
+  htmlOnDOM('petContainer', domString);
+};
+
+const filterPets = (e) => {
+  if (e.target.id.includes('filterBtn')) {
+    let filteredPetsArr = []
+    if (e.target.id === 'filterBtnCats') {
+      filteredPetsArr = petsCopy.filter(pet => pet.type === 'cat');
+    };
+    if (e.target.id === 'filterBtnDogs') {
+      filteredPetsArr = petsCopy.filter(pet => pet.type === 'dog');
     }
-  ];
+    if (e.target.id === 'filterBtnDinos') {
+      filteredPetsArr = petsCopy.filter(pet => pet.type === 'dino');
+    }
+    petsOnDom(filteredPetsArr)
+  }
+  if (e.target.id === 'allPets') {
+    petsOnDom(petsCopy);
+  }
+};
+
+const deletePet = (e) => {
+  if (e.target.id.includes('delete')) {
+    const [, petId] = e.target.id.split('--');
+    const petIndex = petsCopy.findIndex(obj => obj.id === Number(petId));
+    petsCopy.splice(petIndex, 1);
+    petsOnDom(petsCopy);
+  }
+};
+
+const createPet = (e) => {
+  e.preventDefault();
+  const lastIndex = petsCopy[petsCopy.length - 1].id;
+  const newPet = {
+    id: lastIndex + 1,
+    name: document.querySelector('#petName').value,
+    color: document.querySelector('#petColor').value,
+    specialSkill: document.querySelector('#petSkill').value,
+    type: document.querySelector('#petType').value,
+    imageUrl: document.querySelector('#petImage').value
+  }
+  petsCopy.push(newPet);
+  console.log(petsCopy);
+  initializeApp();
+}
+
+const showPetForm = (e) => {
+  if (e.target.id === 'showAddPetForm') {
+    htmlOnDOM('filterBtnsContainer', '');
+    htmlOnDOM('petContainer', '');
+    htmlOnDOM('addPetForm', formStr)
+  };
+};
+
+const goBack = (e) => {
+  if (e.target.id === 'backBtn') initializeApp();
+}
+
+const initializeApp = () => {
+  htmlOnDOM('addPetForm', '');
+  petsOnDom(petsCopy);
+  htmlOnDOM('filterBtnsContainer', filterDomStr)
+};
+
+initializeApp();
+
+
+document.querySelector('#filterBtnsContainer').addEventListener('click', filterPets);
+document.querySelector('#petContainer').addEventListener('click', deletePet);
+document.querySelector('#filterBtnsContainer').addEventListener('click', showPetForm);
+document.querySelector('#addPetForm').addEventListener('submit', createPet);
+document.querySelector('#app').addEventListener('click', goBack);
